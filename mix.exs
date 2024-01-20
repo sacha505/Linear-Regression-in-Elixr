@@ -25,4 +25,12 @@ defmodule LinearRegression.MixProject do
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
   end
+  defp deps do
+    [
+      {:nx, "~> 0.2.1"},
+      {:nimble_csv, "~> 1.1"},
+      {:scholar, "~> 0.1.0", github: "elixir-nx/scholar"}
+    ]
+ end
+
 end

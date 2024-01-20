@@ -24,3 +24,6 @@ linear_regression-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+.nx/installation
+.nx/cache
